@@ -168,7 +168,7 @@ var run = function () {
   var bundle_dir = path.join(__dirname, '..');
 
   // check environment
-  var port = process.env.PORT ? parseInt(process.env.PORT) : 80;
+  var port = process.env.PORT ? parseInt(process.env.PORT) :8080;
 
   // check for a valid MongoDB URL right away
   if (!process.env.MONGO_URL)

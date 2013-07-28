@@ -1,0 +1,70 @@
+
+-----> Node.js app detected
+-----> Resolving engine versions
+       Using Node.js version: 0.8.21
+       Using npm version: 1.3.5
+-----> Fetching Node.js binaries
+-----> Vendoring node into slug
+-----> Installing dependencies with npm
+       npm ERR! Error: Cannot find module 'readable-stream'
+       npm ERR!     at Function.Module._resolveFilename (module.js:338:15)
+       npm ERR!     at Function.Module._load (module.js:280:25)
+       npm ERR!     at Module.require (module.js:362:17)
+       npm ERR!     at require (module.js:378:17)
+       npm ERR!     at Object.<anonymous> (/tmp/node-npm-xxnM/node_modules/sha/index.js:3:48)
+       npm ERR!     at Module._compile (module.js:449:26)
+       npm ERR!     at Object.Module._extensions..js (module.js:467:10)
+       npm ERR!     at Module.load (module.js:356:32)
+       npm ERR!     at Function.Module._load (module.js:312:12)
+       npm ERR!     at Module.require (module.js:362:17)
+       npm ERR! If you need help, you may report this log at:
+       npm ERR!     <http://github.com/isaacs/npm/issues>
+       npm ERR! or email it to:
+       npm ERR!     <npm-@googlegroups.com>
+       
+       npm ERR! System Linux 3.8.11-ec2
+       npm ERR! command "/tmp/node-node-Tlml/bin/node" "/tmp/node-npm-xxnM/cli.js" "install" "--production"
+       npm ERR! cwd /tmp/build_3iyjc3kv3ijhx
+       npm ERR! node -v v0.8.21
+       npm ERR! npm -v 1.3.5
+       npm ERR! code MODULE_NOT_FOUND
+       npm ERR! 
+       npm ERR! Additional logging details can be found in:
+       npm ERR!     /tmp/build_3iyjc3kv3ijhx/npm-debug.log
+       npm ERR! not ok code 0
+ !     Failed to install --production dependencies with npm
+0 info it worked if it ends with ok
+1 verbose cli [ '/tmp/node-node-Tlml/bin/node',
+1 verbose cli   '/tmp/node-npm-xxnM/cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--production' ]
+2 info using npm@1.3.5
+3 info using node@v0.8.21
+4 error Error: Cannot find module 'readable-stream'
+4 error     at Function.Module._resolveFilename (module.js:338:15)
+4 error     at Function.Module._load (module.js:280:25)
+4 error     at Module.require (module.js:362:17)
+4 error     at require (module.js:378:17)
+4 error     at Object.<anonymous> (/tmp/node-npm-xxnM/node_modules/sha/index.js:3:48)
+4 error     at Module._compile (module.js:449:26)
+4 error     at Object.Module._extensions..js (module.js:467:10)
+4 error     at Module.load (module.js:356:32)
+4 error     at Function.Module._load (module.js:312:12)
+4 error     at Module.require (module.js:362:17)
+5 error If you need help, you may report this log at:
+5 error     <http://github.com/isaacs/npm/issues>
+5 error or email it to:
+5 error     <npm-@googlegroups.com>
+6 error System Linux 3.8.11-ec2
+7 error command "/tmp/node-node-Tlml/bin/node" "/tmp/node-npm-xxnM/cli.js" "install" "--production"
+8 error cwd /tmp/build_3iyjc3kv3ijhx
+9 error node -v v0.8.21
+10 error npm -v 1.3.5
+11 error code MODULE_NOT_FOUND
+12 verbose exit [ 1, true ]
+
+ !     Push rejected, failed to compile Node.js app
+
+To git@heroku.com:bike-alarm-stage.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'git@heroku.com:bike-alarm-stage.git'

@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "main": "main.js",
   "engines": {
-    "node": "0.8.21"
+    "node": "0.8.11"
   },
   "dependencies": {
     "clean-css": "0.8.3",
     "connect": "2.7.10",
-    "fibers": "1.0.0",
+    "fibers": "1.0.1",
     "fstream": "0.1.21",
     "handlebars": "1.0.7",
     "http-proxy": "0.10.1",
